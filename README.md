@@ -1,6 +1,11 @@
 # Deployez-un-modele-sur-le-cloud
 Projet 8 OpenClassrooms
 
+Contenu du repository :
+- projet8-oc-v0 : versions html, ipynb, py du code **sans** association databricks/bucket S3 AWS
+- projet8-oc-v1 : versions html, ipynb, py du code **avec** association databricks/bucket S3 AWS
+
+
 Vous êtes Data Scientist dans une très jeune start-up de l'AgriTech, nommée  "Fruits!", qui cherche à proposer des solutions innovantes pour la récolte des fruits.
 La volonté de l’entreprise est de préserver la biodiversité des fruits en permettant des traitements spécifiques pour chaque espèce de fruits en développant des robots cueilleurs intelligents.
 
