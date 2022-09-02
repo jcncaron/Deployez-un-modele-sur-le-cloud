@@ -30,31 +30,3 @@ Lors de son brief initial, Paul vous a averti des points suivants :
 Vous devrez tenir compte dans vos développements du fait que le volume de données va augmenter très rapidement après la livraison de ce projet. Vous développerez donc des scripts en Pyspark et utiliserez par exemple le cloud AWS pour profiter d’une architecture Big Data (EC2, S3, IAM), basée sur un serveur EC2 Linux.
 La mise en œuvre d’une architecture Big Data sous (par exemple) AWS peut nécessiter une configuration serveur plus puissante que celle proposée gratuitement (EC2 = t2.micro, 1 Go RAM, 8 Go disque serveur).
 Ce coût, qui devrait rester inférieur à 10 euros pour une utilisation raisonnée, reste à votre charge. L’utilisation d’un serveur local pour la conception, en limitant l’utilisation du serveur EC2 à l’implémentation et aux tests, permet de réduire sensiblement ce coût.
-
-- Livrables attendus :
-  * Un notebook sur le cloud contenant les scripts en Pyspark exécutables (le preprocessing et une étape de réduction de dimension).
-  * Les images du jeu de données initial ainsi que la sortie de la réduction de dimension (une matrice écrite sur un fichier CSV ou autre) disponible dans un espace de stockage sur le cloud.
-  * Un support de présentation pour la soutenance, présentant :
-     - les différentes briques d'architecture choisies sur le cloud ;
-     - leur rôle dans l’architecture Big Data ;
-     - les étapes de la chaîne de traitement.
-
-Pour faciliter votre passage devant le jury, déposez sur la plateforme, dans un dossier zip nommé “Titre_du_projet_nom_prénom”, votre livrable nommé comme suit : Nom_Prénom_n° du livrable_nom du livrable_date de démarrage du projet. Cela donnera : 
-
-Nom_Prénom_1_notebook_mmaaaa
-Nom_Prénom_2_images_mmaaaa
-Nom_Prénom_3_presentation_mmaaaa
-Par exemple, votre premier livrable peut être nommé comme suit : Dupont_Jean_1_notebook_12022.
-
-- Modalités de la soutenance
-  * 5 min - Rappel de la problématique et présentation du jeu de données
-  * 15 min - Présentation de la réalisation de la chaîne de traitement des images dans un environnement Big Data dans le cloud (à l'aide de votre support de présentation)
-  * 5 min - Conclusion et recommandations
-  * 5 à 10 minutes de questions-réponses
-
-Votre présentation devrait durer 20 minutes (+/- 5 minutes).  Puisque le respect des durées des présentations est important en milieu professionnel, les présentations en dessous de 15 minutes ou au-dessus de 25 minutes peuvent être refusées. 
-
-- Compétences évaluées :
-  * Identifier les outils du cloud permettant de mettre en place un environnement Big Data
-  * Paralléliser des opérations de calcul avec Pyspark
-  * Utiliser les outils du cloud pour manipuler des données dans un environnement Big Data
